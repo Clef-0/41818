@@ -38,7 +38,7 @@ h1 {
 	font-size: 12px;
 	font-weight: inherit;
 	color: white;
-	border-bottom: 1px solid #ffffff33
+	border-bottom: 1px solid #ffffff33;
 }
 
 h2 {
@@ -55,6 +55,36 @@ h2:after {
 	padding: 2px 0;
 	line-height: 1px;
 	border-top: 1px dashed #ffffff33; 
+}
+
+h3 {
+	margin: 0 0 0 5px;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 10px;
+	font-weight: inherit;
+	color: white;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.videntry {
+	cursor: default;
+}
+
+.videntry > h3 {
+	cursor: text;
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #00000099;
+	border: 2px solid #ffffff99;
+	padding: 10px;
+	margin: 20px;
+}
+
+.videntry:focus > h3 {
+	display: block;
 }
 
 #topfixed
@@ -74,4 +104,5 @@ h2:after {
 .flexelement {
 	margin: 5px;
 	text-align: left;
+	max-width: 50%;
 }
