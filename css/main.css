@@ -4,6 +4,11 @@ body {
 	font-family: Lucida Console, Monaco, monospace;
 	font-size: 12px;
 	color: #abc;
+	line-height: 12px;
+}
+
+p {
+	color: white;
 }
 
 a:link {
@@ -33,6 +38,7 @@ h1 {
 	font-size: 12px;
 	font-weight: inherit;
 	color: white;
+	border-bottom: 1px solid #ffffff33
 }
 
 h2 {
@@ -48,7 +54,7 @@ h2:after {
 	display: block;
 	padding: 2px 0;
 	line-height: 1px;
-	border-top: 1px dashed white; 
+	border-top: 1px dashed #ffffff33; 
 }
 
 #topfixed
@@ -57,13 +63,11 @@ h2:after {
 }
 
 #centerdiv {
-	padding: 200px 0px;
-	text-align: center;
+	padding: 200px 20%;
 }
 
 .flexwrap {
 	display:flex;
-	justify-content: center;
 	margin-bottom:20px;
 }
 
