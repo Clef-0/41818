@@ -1,3 +1,4 @@
 body {
-	background: black url("../img/zig.png") repeat fixed center; 
+	background: black url("../img/zig.png") repeat fixed center;
+	background-size: 50% 50%;
 }
