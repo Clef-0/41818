@@ -1,4 +1,51 @@
 body {
 	background: black url("../img/zig.png") repeat fixed center;
-	background-size: 50% 50%;
+	background-size: 10px 10px;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 12px;
+	color: #abc;
+}
+
+a:link {
+    color: #35b7b7;
+	text-decoration: none;
+}
+a:visited {
+    color: #35b7b7;
+	text-decoration: none;
+}
+a:hover {
+    color: #37cccc;
+	text-decoration: none;
+}
+a:active {
+    color: #37cccc;
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 12px;
+	font-weight: inherit;
+	color: white;
+}
+
+#centerdiv {
+	padding: 200px 0px;
+	text-align: center;
+}
+
+.flexwrap {
+	display:flex;
+	justify-content: center;
+}
+
+.flexelement {
+	margin: 5px;
+	text-align: left;
 }
