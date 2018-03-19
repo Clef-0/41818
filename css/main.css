@@ -35,6 +35,27 @@ h1 {
 	color: white;
 }
 
+h2 {
+	margin: 0;
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 12px;
+	font-weight: inherit;
+	color: white;
+}
+
+h2:after {
+	content: "\a0";
+	display: block;
+	padding: 2px 0;
+	line-height: 1px;
+	border-top: 1px dashed white; 
+}
+
+#topfixed
+{
+	
+}
+
 #centerdiv {
 	padding: 200px 0px;
 	text-align: center;
@@ -43,6 +64,7 @@ h1 {
 .flexwrap {
 	display:flex;
 	justify-content: center;
+	margin-bottom:20px;
 }
 
 .flexelement {
