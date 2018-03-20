@@ -58,33 +58,36 @@ h2:after {
 }
 
 h3 {
-	margin: 0 0 0 5px;
+	margin: 0;
 	font-family: Lucida Console, Monaco, monospace;
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: inherit;
 	color: white;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
 
+.floatbox {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 10px 20%;
+}
+
 .videntry {
 	cursor: default;
 }
 
-.videntry > h3 {
-	cursor: text;
+.videntry h3 {
 	display: none;
-	position: fixed;
-	bottom: 0;
-	left: 0;
 	font-size: 12px;
 	background-color: #00000099;
 	border: 2px solid #ffffff99;
 	padding: 10px;
-	margin: 20px 20%;
+	margin-bottom: 10px;
 }
 
-.videntry:focus > h3 {
+.videntry:focus h3 {
 	display: block;
 }
 
@@ -95,6 +98,7 @@ h3 {
 
 #centerdiv {
 	padding: 200px 20%;
+	margin-bottom: 500px;
 }
 
 .flexwrap {
