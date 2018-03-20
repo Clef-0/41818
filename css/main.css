@@ -77,6 +77,7 @@ h3 {
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	font-size: 12px;
 	background-color: #00000099;
 	border: 2px solid #ffffff99;
 	padding: 10px;
