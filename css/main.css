@@ -101,6 +101,10 @@ ul
 	margin-bottom: 10px;
 }
 
+.videntry:focus {
+	color: white;
+}
+
 .videntry:focus h3 {
 	display: block;
 }
