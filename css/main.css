@@ -75,6 +75,11 @@ h3 {
 	width: 60%;
 }
 
+ul
+{
+	margin: 0;
+}
+
 @media (max-width: 900px)
 {
 .floatbox {
