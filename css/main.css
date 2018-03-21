@@ -38,7 +38,7 @@ h1 {
 	font-size: 12px;
 	font-weight: inherit;
 	color: white;
-	border-bottom: 1px solid #ffffff33;
+	border-bottom: 1px solid (255, 255, 255, 0.2);
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2:after {
 	display: block;
 	padding: 2px 0;
 	line-height: 1px;
-	border-top: 1px dashed #ffffff33; 
+	border-top: 1px dashed rgba(255, 255, 255, 0.2); 
 }
 
 h3 {
@@ -81,8 +81,8 @@ h3 {
 .videntry h3 {
 	display: none;
 	font-size: 12px;
-	background-color: #00000099;
-	border: 2px solid #ffffff99;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 2px solid rgba(255, 255, 255, 0.6);
 	padding: 10px;
 	margin-bottom: 10px;
 }
